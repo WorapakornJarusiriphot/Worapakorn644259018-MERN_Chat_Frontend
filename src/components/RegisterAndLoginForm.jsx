@@ -29,7 +29,7 @@ const RegisterAndLoginForm = () => {
                     onChange={e => setUsername(e.target.value)}
                 />
                 <input
-                    type="text"
+                    type="password"
                     className="block w-full rounded-sm p-2 mb-2 border"
                     placeholder='Password'
                     onChange={e => setPassword(e.target.value)}
